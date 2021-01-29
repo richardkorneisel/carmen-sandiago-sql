@@ -5,6 +5,17 @@
 -- Finland, http://www.stat.fi/worldinfigures.
 --
 
+DROP DATABASE IF EXISTS carmen;
+
+CREATE DATABASE carmen;
+
+\c carmen
+
+
+CREATE DATABASE carmen;
+
+
+
 BEGIN;
 
 SET client_encoding = 'LATIN1';
@@ -5385,3 +5396,5 @@ COMMIT;
 ANALYZE city;
 ANALYZE country;
 ANALYZE countrylanguage;
+
+\q

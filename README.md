@@ -8,22 +8,10 @@ We're going to use what we've already learned about searching with SQL commands 
 
 - Fork and clone this repo.
 - Go inside the folder you just cloned
-- From the command line, let's create a new database called `carmen` and populate it with the SQL found in `world.sql`.
+- From your terminal we will create a database called `carmen` and populate it with the data found in `world.sql`. The only thing you have to do is to run the command **`psql -f world.sql`**, and you should see something like this. :point_down: 
 
-```sh
-# Enter psql
-psql
+![](https://i.imgur.com/DCSV77Z.png)
 
-# Create database
-CREATE DATABASE carmen;
-
-# Connect to carmen
-\c carmen
-\i world.sql
-
-# To exit the psql terminal use the command
-\q
-```
 Now your database is ready!!!! good luck detective :shipit: :mag: 
 
 ## Exercise
