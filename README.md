@@ -15,7 +15,7 @@ $: psql -f world.sql
 
 You should see something like this. :point_down: 
 
-![](https://i.imgur.com/DCSV77Z.png)
+![](https://i.imgur.com/Nt6GMIS.png)
 
 Now your database is ready!!!! good luck detective :shipit: :mag: 
 

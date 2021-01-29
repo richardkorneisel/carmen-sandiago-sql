@@ -12,10 +12,6 @@ CREATE DATABASE carmen;
 \c carmen
 
 
-CREATE DATABASE carmen;
-
-
-
 BEGIN;
 
 SET client_encoding = 'LATIN1';
