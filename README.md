@@ -8,7 +8,12 @@ We're going to use what we've already learned about searching with SQL commands 
 
 - Fork and clone this repo.
 - Go inside the folder you just cloned
-- From your terminal we will create a database called `carmen` and populate it with the data found in `world.sql`. The only thing you have to do is to run the command **`psql -f world.sql`**, and you should see something like this. :point_down: 
+- From your terminal we will create a database called `carmen` and populate it with the data found in `world.sql`. The only thing you have to do is to run the command in your terminal.
+```sh
+$: psql -f world.sql
+```
+
+You should see something like this. :point_down: 
 
 ![](https://i.imgur.com/DCSV77Z.png)
 
