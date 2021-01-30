@@ -13,8 +13,11 @@ select * from countrylanguage where countrycode = 'VAT'
 -- Clue #3: We have new news on the classes Carmen attended – our gumshoes tell us she's moved on
 -- to a different country, a country where people speak only the language she was learning. Find out which
 --  nearby country speaks nothing but that language.
-
-
+select * from countrylanguage where language = 'Italian';
+select * from countrylanguage where percentage = 100;
+"SMR"	"Italian"	true	100
+select * from country where code = 'SMR'
+"SMR"	"San Marino"
 
 -- Clue #4: We're booking the first flight out – maybe we've actually got a chance to catch her this time.
  -- There are only two cities she could be flying to in the country. One is named the same as the country – that
