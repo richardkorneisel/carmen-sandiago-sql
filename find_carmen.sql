@@ -57,7 +57,8 @@ select * from city where id = 211
 
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
+select * from city where population = 91084
+4060	"Santa Monica"	"USA"	"California"	91084
 
 
-
--- She's in ____________________________!
+-- She's in __Santa Monica____!
