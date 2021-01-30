@@ -37,7 +37,10 @@ select * from city where name like 'Serra%';
 -- Clue #6: We're close! Our South American agent says she just got a taxi at the airport, and is headed towards
  -- the capital! Look up the country's capital, and get there pronto! Send us the name of where you're headed and we'll
  -- follow right behind you!
-
+select * from country where code = 'BRA';
+"Brasil"	"Federal Republic"	"Fernando Henrique Cardoso"	211	"BR"
+select * from city where id = 211
+211	"Brasï¿½lia"	"BRA"	"Distrito Federal"	1969868
 
 
 -- Clue #7: She knows we're on to her – her taxi dropped her off at the international airport, and she beat us to
